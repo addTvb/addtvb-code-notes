@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i,900|Montserrat:900');
 
 :root {
-  --primary-color: #d23669;
-  --primary-color-light: rgb(255, 167, 196);
+  --primary-color: #FFAC00;
+  --primary-color-light: #701598;
+  --background-color: #282828;
 }
 
 :global * {
@@ -10,8 +11,9 @@
 }
 
 :global html {
-  color: rgba(0, 0, 0, 0.9);
+  color: #cfcfcf;
   font: 100%/1.75 Morriweather, Georgia, serif;
+  background-color: var(--background-color);
 }
 
 :global body {
@@ -29,7 +31,9 @@
   font-family: Consolas, Menlo, Monaco, source-code-pro, "Courier New", monospace;
   font-size: 0.85rem;
   line-height: 1.5;
+
 }
+
 :global pre {
   border-radius: 10px;
   overflow: auto;
