@@ -12,7 +12,7 @@ function Bio(props) {
         >
             <img
                 src={Photo}
-                alt="Abaev Arslan smiles at the photo in a blue shirt"
+                alt="Abaev Arslan smiles in a blue shirt"
             />
             <p>
                 Небольшой блог с заметками в виде применимых на практике
