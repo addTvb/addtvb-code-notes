@@ -9,7 +9,6 @@
     "lodash": "^4.17.11",
     "navi": "^0.13.3",
     "navi-scripts": "^0.13.3",
-    "netlify-cli": "^2.6.0",
     "prismjs": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -24,9 +23,7 @@
     "build": "react-scripts build && navi-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "navi-scripts serve",
-    "deploy": "netlify deploy --dir=build",
-    "deploy:prod": "netlify deploy --dir=build --prod"
+    "serve": "navi-scripts serve"
   },
   "eslintConfig": {
     "extends": "react-app"
