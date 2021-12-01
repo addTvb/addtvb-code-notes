@@ -1,15 +1,16 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "short_name": "addTvb-blog",
+    "name": "addTvb-code-notes",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#FFAC00",
+    "background_color": "#282828",
+    "description": "Небольшой блог с заметками в виде применимых на практике кусочков кода для разных нужд, этакий блог шпаргалка👨‍💻😅"
 }
