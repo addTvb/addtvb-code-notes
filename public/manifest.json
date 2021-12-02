@@ -6,10 +6,25 @@
             "src": "favicon.ico",
             "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/x-icon"
+        },
+        {
+            "src": "./img/logo-512.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512"
+        },
+        {
+            "src": "./img/logo-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "./img/logo-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
         }
     ],
-    "start_url": "/",
-    "display": "standalone",
+    "start_url": ".",
+    "display": "minimal-ui",
     "theme_color": "#FFAC00",
     "background_color": "#282828",
     "description": "Небольшой блог с заметками в виде применимых на практике кусочков кода для разных нужд, этакий блог шпаргалка👨‍💻😅"
