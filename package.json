@@ -22,7 +22,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build && navi-scripts build",
-        "test": "editorconfig-checker",
+        "test": "editorconfig-checker prettier",
         "eject": "react-scripts eject",
         "serve": "navi-scripts serve",
         "deploy": "netlify deploy --dir=build",
