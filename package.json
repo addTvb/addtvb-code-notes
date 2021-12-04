@@ -27,7 +27,8 @@
         "serve": "navi-scripts serve",
         "deploy": "netlify deploy --dir=build",
         "deploy:prod": "netlify deploy --dir=build --prod",
-				"precommit": "lint-staged"
+				"precommit": "lint-staged",
+				"prettier": "prettier"
     },
     "eslintConfig": {
         "extends": "react-app"
