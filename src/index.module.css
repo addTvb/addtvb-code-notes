@@ -6,6 +6,10 @@
   --background-color: #282828;
 }
 
+body {
+	font-size: 1.2rem;
+}
+
 :global * {
   box-sizing: border-box;
 }
