@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #FFAC00;
+  --primary-color-hover: #d38c00;
   --primary-color-light: #701598;
   --background-color: #282828;
 }
@@ -9,6 +10,28 @@
 body {
 	font-size: 1.2rem;
 }
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background-color: #4b4b4b;
+	border-radius: 10px;
+}
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background-color: var(--primary-color);
+	border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	  background-color: var(--primary-color-hover);
+  }
 
 :global * {
   box-sizing: border-box;
